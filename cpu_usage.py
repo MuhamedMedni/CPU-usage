@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-
 import psutil, os ,sys
 
 pstotal = 0.0
