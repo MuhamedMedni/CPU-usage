@@ -1,0 +1,6 @@
+[Unit]
+Description=CPU usage service
+[Service]
+ExecStart=/usr/bin/python3 /user/sbin/cpu_usage.py
+[Install]
+WantedBy=multi-user.target

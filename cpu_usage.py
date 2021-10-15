@@ -1,8 +1,5 @@
 #!/usr/bin/python3
-
-import psutil
-import os 
-import sys
+import psutil, os ,sys
 
 pstotal = 0.0
 for proc in psutil.process_iter():
