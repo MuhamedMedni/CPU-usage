@@ -7,7 +7,7 @@ You'll get warning from the system that you're using more than 50Mega bytes, eve
 ./cpu_usage_py 1G 60
 You'll get warning from the system that you're using more than 1 Gigabyte, ,every 5 mintues. (Both G and g works.) 
 
-You can also check the every poccess that is using in detail in $ cat /tmp/cpu_usage_rapport.txt 
+You can also check the every poccess that has been used more than specific amount of CPU memory in detail in $ cat /tmp/cpu_usage_rapport.txt 
 
 
 Enable Newly Added Service: Your system service has been added to your service. Let’s reload the systemctl daemon to read new file. You need to reload this deamon each time after making any changes in service file by following command. .service file. by sudo systemctl daemon-reload
