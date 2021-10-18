@@ -1,7 +1,11 @@
 [Unit]
-Description=CPU usage service
+Description=just testing
+
 
 [Service]
-ExecStart=/usr/bin/python3 /user/sbin/cpu_usage.py
+Type=simple
+ExecStart=/usr/bin/python3 /usr/sbin/cpu_usage.py ./cpu_usage.py arg1 arg2
+
 [Install]
 WantedBy=multi-user.target
+
