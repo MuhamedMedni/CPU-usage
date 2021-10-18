@@ -1,7 +1,8 @@
 #!/usr/bin/python3
 
-import psutil,sys
+import psutil, os, sys
 import time
+
 
 changed_memory_m = 0.0
 changed_memory_g = 0.0
@@ -11,7 +12,6 @@ Input_minute = (sys.argv[2])
 
 memory_number = Input_memory[:-1]
 memory_unit = Input_memory[-1]
-
 
 def job():
     f = open("/tmp/cpu_usage_rapport.txt", "a")
@@ -45,6 +45,3 @@ starttime = time.time()
 while asd:
     job()
     time.sleep(float(Input_minute) - ((time.time() - starttime) % float(Input_minute)))
-
-    #Seongeun Park, Muhamed Medni 
-
