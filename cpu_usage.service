@@ -1,7 +1,5 @@
 [Unit]
 Description=CPU usage service
-After=multi-user.target
-Conflicts=getty@tty1.service
 
 [Service]
 ExecStart=/usr/bin/python3 /user/sbin/cpu_usage.py
