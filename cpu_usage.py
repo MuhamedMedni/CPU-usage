@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 import psutil,sys
-import time, schedule
+import time
 
 changed_memory_m = 0.0
 changed_memory_g = 0.0
