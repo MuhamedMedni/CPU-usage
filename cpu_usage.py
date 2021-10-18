@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-import psutil, os, sys
+import psutil,sys
 import time, schedule
 
 changed_memory_m = 0.0
